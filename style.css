@@ -577,6 +577,10 @@ hero-intro{
         height: 250px;
     }
 
+    .hero-socials{
+        display:none;
+    }
+
     .skills {
         flex-direction: column;
         padding: 20px;
