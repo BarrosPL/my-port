@@ -25,3 +25,7 @@ document.getElementById('btnprojetos').addEventListener('click', () => {
 document.getElementById('btnsobre').addEventListener('click', () => {
     document.getElementById('career').scrollIntoView({ behavior: 'smooth' });
 });
+
+document.getElementById("btn-2").addEventListener("click", function() {
+    window.location.href = "https://virtualtutor.netlify.app/";
+});
