@@ -547,75 +547,84 @@ hero-intro{
     
 }
 
-@media (max-width: 1024px) {
-    .navbar {
-        padding: 20px;
-    }
-    .navbar-menu {
-        display: none;
-    }
-
-    .footer{
-        display:none;
-    }
-    .hero {
-        flex-direction: column;
-        text-align: center;
-        
-    }
-
-    .hero-intro{
-        margin-left:110px;
-    }
-    .hero-content, .hero-intro {
-        width: 100%;
-        
-    }
-    .skills {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .skills-description{
-        margin-left:110px
-    }
-    .category-projects {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .project-card {
-        width: 100%;
-        max-width: 400px;
-    }
-}
-
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
+        padding: 10px;
+    }
+
+    .navbar-menu {
+        flex-direction: column;
         align-items: center;
+        padding-left: 0;
+        displaynone
     }
+
     .hero {
-        padding: 60px 5%;
-        
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 20px;
+        height: auto;
     }
+
+    .hero-content, .hero-intro {
+        width: 100%;
+        padding: 0;
+    }
+
+    .hero-image {
+        width: 250px;
+        height: 250px;
+    }
+
     .skills {
+        flex-direction: column;
         padding: 20px;
     }
-    .category-projects {
-        flex-direction: column;
-    }
-}
 
-@media (max-width: 480px) {
-    .hero {
-        padding: 40px 5%;
-        margin-left:300px
-    }
-    .btn {
+    .skills-description, .skills-stats {
         width: 100%;
         text-align: center;
     }
-    .skills {
+
+    .skills-stats {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .showcase {
+        padding: 20px;
+    }
+
+    .category-projects {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card {
+        width: 90%;
+        height: auto;
+    }
+
+    .career {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .career-jobs, .career-awards {
+        width: 100%;
+    }
+
+    .contact {
+        padding: 20px;
+    }
+
+    .footer {
         padding: 10px;
+        text-align: center;
+    }
+
+    .footer-brand {
+        padding-left: 0;
     }
 }
