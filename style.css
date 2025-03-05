@@ -200,8 +200,10 @@ hero-intro{
 .skills {
     padding: 60px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 40px;
+    text-align: center;
 
 }
 
@@ -211,7 +213,7 @@ hero-intro{
 }
 
 .skills-description{
-    padding-right: 80px;
+    
 }
 
 .skills-description h3 {
@@ -269,6 +271,9 @@ hero-intro{
     padding: 80px 60px 100px;
     background: #e5e7eb;
     width:100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .showcase-header {
