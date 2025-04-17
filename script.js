@@ -36,3 +36,7 @@ document.getElementById("btn-1").addEventListener("click", function() {
 document.getElementById("btn-3").addEventListener("click", function() {
     window.location.href = "https://petshop-ladingpage.vercel.app/";
 });
+
+document.getElementById("btn-4").addEventListener("click", function() {
+    window.location.href = "https://animated-conkies-d4383e.netlify.app/";
+});
