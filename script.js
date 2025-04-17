@@ -31,7 +31,7 @@ document.getElementById("btn-2").addEventListener("click", function() {
 });
 
 document.getElementById("btn-1").addEventListener("click", function() {
-    window.location.href = "https://previsao-app-roan.vercel.app/";
+    window.location.href = "https://landing-page-easy-connect.vercel.app/";
 });
 document.getElementById("btn-3").addEventListener("click", function() {
     window.location.href = "https://petshop-ladingpage.vercel.app/";
